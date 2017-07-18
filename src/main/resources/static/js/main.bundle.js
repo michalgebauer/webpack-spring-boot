@@ -542,9 +542,9 @@ module.exports = __webpack_require__(2);
 /* 2 */
 /***/ (function(module, exports) {
 
-console.log("hello from webpack");
+console.log("hello from webpack 2323");
 
-fetch('/rest/1')
+fetch('/rest/1/greeting')
   .then(function(response) {
     return response.json()
   }).then(function(json) {

@@ -11,16 +11,14 @@ import java.time.LocalDateTime;
  * Created by mi3o on 16. 7. 2017.
  */
 @Controller
-@RequestMapping(value="/rest/1")
-public class GeeterController {
-
-    private static final String template = "Hello, %s!";
+@RequestMapping(value="/rest/1/greeting")
+public class GreeterController {
 
 
     @RequestMapping(method = RequestMethod.GET, produces = { "application/json" })
     public @ResponseBody
     Greeting greetNoName() {
-        return new Greeting(String.format(template, "World"));
+        return new Greeting("Hello rest");
     }
 
     public class Greeting {

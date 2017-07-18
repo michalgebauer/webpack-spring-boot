@@ -57,3 +57,11 @@ typings/
 # dotenv environment variables file
 .env
 
+# intellij files
+.idea/
+
+# maven target folder
+target/
+
+# folder with node installed by maven plugins
+node/

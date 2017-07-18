@@ -1,6 +1,6 @@
-console.log("hello from webpack");
+console.log("hello from webpack 2323");
 
-fetch('/rest/1')
+fetch('/rest/1/greeting')
   .then(function(response) {
     return response.json()
   }).then(function(json) {
